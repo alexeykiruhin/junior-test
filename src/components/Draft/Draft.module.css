@@ -1,0 +1,67 @@
+.draft {
+  grid-area: draft;
+  background-color: #282c34;
+  color: white;
+}
+
+.draft h2 {
+  display: grid;
+  justify-content: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.draftList {
+  margin: 10px 20px 20px;
+  min-width: 16vw;
+}
+
+.cardDraft {
+  min-height: 40px;
+  margin-top: 20px;
+  background-color: lightgray;
+}
+
+.text {
+  background-color: inherit;
+  border: none;
+  font-size: 15px;
+  min-width: 90%;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.cardBtns {
+  /*display: grid;*/
+  /*grid-template-columns: 1fr 1fr;*/
+  /*grid-column-gap: 10px;*/
+  padding-left: 30px;
+  background: linear-gradient(to bottom, lightgray 50%, #282c34 50%);
+}
+
+.removeBtn {
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.saveBtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+

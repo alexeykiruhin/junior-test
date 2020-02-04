@@ -1,0 +1,31 @@
+.header {
+  display: grid;
+  grid-template-columns: 30fr 1fr;
+  grid-area: h;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header > h1 > span {
+  color: blueviolet;
+}
+
+.cntCards {
+  display: grid;
+  min-width: 30px;
+  max-width: 30px;
+  min-height: 30px;
+  max-height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
